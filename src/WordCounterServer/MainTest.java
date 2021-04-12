@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.MainTest.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: I added all the unit tests to this singular test file. It just makes more sense to run them all from a singular location.
 */
+
+package WordCounterServer;
 
 import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;

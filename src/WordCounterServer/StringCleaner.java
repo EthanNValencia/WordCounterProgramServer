@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.StringCleaner.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: This class contains the methods that are used to filter text and remove undesirable text.
 */
+
+package WordCounterServer;
 
 import java.io.*;
 
@@ -17,6 +19,7 @@ public class StringCleaner implements CONSTANTS{
      * I need to remove the file read and write requirements and just pass the string instead
      * @param text This is the directory that the webpage text was saved to.
      * @throws IOException This method can throw an IOException.
+     * @return It returns a string that has had the known undesirable text removed.
      */
     public String cleanThisString(String text) throws IOException {
         String reader = text;
@@ -30,12 +33,11 @@ public class StringCleaner implements CONSTANTS{
     }
 
     /***
-     * This method cleans a string of any known undesirable text that is contained in the stringArray constant.
+     * This method cleans a string of any known undesirable text that is contained in the stringArray constant. This is used for tests.
      * @param reader It requires a string that will be processed.
      * @return It returns a string that has had the known undesirable text removed.
      */
     public String cleanString(String reader){
-        // This method contains critical functionality.
         for (int i = 0; i < stringArray.length; i++){
             if (reader.contains(stringArray[i])){
                 reader = reader.replaceAll(stringArray[i], " ");

@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.WordCounter.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: This class is used to count the words from a post-filtered string.
 */
+
+package WordCounterServer;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

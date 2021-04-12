@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.Word.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: This class is used to save the words as objects.
 */
+
+package WordCounterServer;
 
 import java.util.Objects;
 

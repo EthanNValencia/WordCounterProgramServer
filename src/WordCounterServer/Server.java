@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.Server.java
 Author: Ethan J. Nephew
 Date due: April, 2021
 Course: CEN-3024C
 Description: This is the class definition for the server-side of the application.
 */
+
+package WordCounterServer;
 
 import javafx.application.Platform;
 import javafx.event.EventHandler;

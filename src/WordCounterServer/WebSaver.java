@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.WebSaver.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: This is the class definition that downloads the text from the internet and saves it. It conducts some basic filtering as well.
 */
+
+package WordCounterServer;
 
 import java.util.Scanner;
 

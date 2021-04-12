@@ -1,10 +1,12 @@
-package WordCounterServer;/*
+/*
 File: WordCounterServer.CONSTANTS.java
 Author: Ethan J. Nephew
 Date due: April 4, 2021
 Course: CEN-3024C
 Description: This class contains the various constants for the word counter application. Such as: directories and arrays of content that will be deleted.
 */
+
+package WordCounterServer;
 
 /***
  * Constants interface that is used to provide easy of use for changing the web page URL and directory locations. Contains the stringArray and charArray, these arrays are used to specify text deletion. If the user is experience I/O exceptions, modifying the directories is a viable troubleshooting technique.
